@@ -1,0 +1,27 @@
+<!--
+ * @Author: hujianbo
+ * @LastEditors: Hujianbo
+-->
+<!--App.vue-->
+<template>
+  <div id="app">
+    sdfsdfdd
+  </div>
+</template>
+
+<script>
+import {ref, reactive, defineComponent, onMounted} from '@vue/composition-api'
+export default defineComponent({
+  name: "App",
+  setup(){
+    onMounted(() => {
+      console.log('onmounted');
+    })
+  }
+});
+</script>
+<style lang="scss" scoped>
+#app{
+  height: 100%;
+}
+</style>
